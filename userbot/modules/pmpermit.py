@@ -26,7 +26,7 @@ from userbot.modules.sql_helper.pm_permit_sql import get_approved
 
 # ========================= CONSTANTS ============================
 DEF_UNAPPROVED_MSG = (
-    "I haven't approved you to PM yet.\n"
+    " It's kaalbot here I haven't approved you to PM yet.\n"
     "Wait for me to approve your PM.\n"
     "Until then, don't spam my PM or you'll get blocked and reported as spam...\n"
     "CAPICHE?\n\n"
