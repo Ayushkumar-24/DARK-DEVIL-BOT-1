@@ -31,9 +31,9 @@ from userbot.utils import chrome, progress
 from userbot.utils.FastTelethon import upload_file
 
 
-async def getmusic(kaal):
+async def getmusic(cat):
     video_link = ""
-    search = kaal
+    search = cat
     driver = await chrome()
     driver.get("https://www.youtube.com/results?search_query=" + search)
     user_data = driver.find_elements_by_xpath('//*[@id="video-title"]')
@@ -47,9 +47,9 @@ async def getmusic(kaal):
     return video_link
 
 
-async def getmusicvideo(kaal):
+async def getmusicvideo(cat):
     video_link = ""
-    search = kaal
+    search = cat
     driver = await chrome()
     driver.get("https://www.youtube.com/results?search_query=" + search)
     user_data = driver.find_elements_by_xpath('//*[@id="video-title"]')
